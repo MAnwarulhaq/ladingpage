@@ -2,10 +2,10 @@ import React from 'react'
 import logo from '../assets/logo.png'
 const Navbar = () => {
     return (
-        <div className='flex justify-around items-center p-5'>
+        <div className='flex flex-wrap justify-around items-center p-5'>
             <img src={logo} alt="" />
         
-                <ul className='flex justify-between items-center gap-3 text-lg'>
+                <ul className='flex flex-wrap justify-between items-center gap-3 text-lg'>
                     <li>Home</li>
                     <li>Service</li>
                     <li>Feature</li>
@@ -15,8 +15,8 @@ const Navbar = () => {
 
                 </ul>
                 <div>
-                    <button className='mr-2'>Login</button>
-                    <button>
+                    <button className='mr-2 text-[#4CAF4F]'>Login</button>
+                    <button className='bg-[#4CAF4F] text-white w-20 h-10 rounded-lg'>
                         Sign up
                     </button>
                 </div>
