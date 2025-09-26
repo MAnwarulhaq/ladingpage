@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/logo.png'
 const Navbar = () => {
     return (
-        <div className='flex flex-wrap justify-around items-center p-5'>
+        <div className='flex flex-wrap justify-around items-center p-5 bg-[#F5F7FA]'>
             <img src={logo} alt="" />
         
                 <ul className='flex flex-wrap justify-between items-center gap-3 text-lg'>

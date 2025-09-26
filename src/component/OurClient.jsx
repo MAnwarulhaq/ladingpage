@@ -8,7 +8,7 @@ import logo6 from '../assets/logo6.png'
 
 const OurClient = () => {
     return (
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center p-5'>
             <h1 className='text-[#4D4D4D] font-bold text-5xl'>Our Client</h1>
             <p className='text-[#4D4D4D] text-2xl my-5'>We have been working with some Fortune 500+ clients</p>
             <div className='flex justify-between items-center w-full my-5 p-12' >
@@ -19,6 +19,9 @@ const OurClient = () => {
                 <img src={logo5} alt="" />
                 <img src={logo6} alt="" />
             </div>
+            <p className='text-[#4D4D4D] text-3xl text-center'>Manage your entire community <br /> in a single system</p>
+            <p className='text-[#4D4D4D]'>Who is Nextcent suitable for?
+</p>
         </div>
     )
 }
