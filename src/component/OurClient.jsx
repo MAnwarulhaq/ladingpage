@@ -25,21 +25,21 @@ const OurClient = () => {
             </div>
             <p className='text-[#4D4D4D] text-3xl text-center'>Manage your entire community <br /> in a single system</p>
             <p className='text-[#4D4D4D]'>Who is Nextcent suitable for?</p>
-            <div className='flex justify-center items-center mt-5 p-5'>
+            <div className='flex justify-between items-center mt-5 w-full'>
                 <div className='flex flex-col items-center justify-center space-y-3'>
                     <img src={icon1} alt="" />
                     <h1 className='text-[#4D4D4D] text-4xl text-center'>Membership<br />Organisations</h1>
-                    <p className='w-80 text-center text-[#4D4D4D]'>Our membership management software provides full automation of membership renewals and payments</p>
+                    <p className='text-[#717171] w-80 text-center'>Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
                  <div  className='flex flex-col items-center justify-center'>
                     <img src={icon2} alt="" />
                     <h1  className='text-[#4D4D4D] text-4xl text-center'>National <br /> Associations</h1>
-                    <p>Our membership management software provides full automation of membership renewals and payments</p>
+                    <p className='text-[#717171] w-80 text-center'>Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
                  <div  className='flex flex-col items-center justify-center'>
                     <img src={icon3} alt="" />
                     <h1  className='text-[#4D4D4D] text-4xl text-center'>Clubs And <br /> Groups</h1>
-                    <p>Our membership management software provides full automation of membership renewals and payments</p>
+                    <p className='text-[#717171] w-80 text-center'>Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
             </div>
         </div>
