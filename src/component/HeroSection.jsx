@@ -2,7 +2,7 @@ import React from 'react'
 import rightImg from '../assets/rightimg.png'
 const HeroSection = () => {
   return (
-    <div className='w-full h-screen  flex flex-wrap justify-around items-center gap-10 p-5 bg-[#F5F7FA]'>
+    <div className='w-full min-h-screen  flex flex-wrap justify-around items-center gap-10 p-5 bg-[#F5F7FA]'>
         <div>
             <h1 className='text-[#4D4D4D] text-2xl lg:text-6xl'>Lessons and insights <br />
              <span className='text-[#4CAF4F]'>from 8 years</span> </h1>
