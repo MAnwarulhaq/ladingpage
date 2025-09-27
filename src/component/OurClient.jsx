@@ -5,6 +5,10 @@ import logo3 from '../assets/logo3.png'
 import logo4 from '../assets/logo4.png'
 import logo5 from '../assets/logo5.png'
 import logo6 from '../assets/logo6.png'
+import icon1 from '../assets/icon1.png'
+import icon2 from '../assets/icon2.png'
+import icon3 from '../assets/icon3.png'
+
 
 const OurClient = () => {
     return (
@@ -20,9 +24,26 @@ const OurClient = () => {
                 <img src={logo6} alt="" />
             </div>
             <p className='text-[#4D4D4D] text-3xl text-center'>Manage your entire community <br /> in a single system</p>
-            <p className='text-[#4D4D4D]'>Who is Nextcent suitable for?
-</p>
+            <p className='text-[#4D4D4D]'>Who is Nextcent suitable for?</p>
+            <div className='flex justify-center items-center mt-5 p-5'>
+                <div className='flex flex-col items-center justify-center space-y-3'>
+                    <img src={icon1} alt="" />
+                    <h1 className='text-[#4D4D4D] text-4xl text-center'>Membership<br />Organisations</h1>
+                    <p className='w-80 text-center text-[#4D4D4D]'>Our membership management software provides full automation of membership renewals and payments</p>
+                </div>
+                 <div  className='flex flex-col items-center justify-center'>
+                    <img src={icon2} alt="" />
+                    <h1  className='text-[#4D4D4D] text-4xl text-center'>National <br /> Associations</h1>
+                    <p>Our membership management software provides full automation of membership renewals and payments</p>
+                </div>
+                 <div  className='flex flex-col items-center justify-center'>
+                    <img src={icon3} alt="" />
+                    <h1  className='text-[#4D4D4D] text-4xl text-center'>Clubs And <br /> Groups</h1>
+                    <p>Our membership management software provides full automation of membership renewals and payments</p>
+                </div>
+            </div>
         </div>
+        
     )
 }
 
